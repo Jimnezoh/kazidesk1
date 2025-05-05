@@ -13,9 +13,11 @@ const Search = ({searchTerm, setSearchTerm}) => {
             <input 
             type="text"
             placeholder='Search' 
-            className='w-10'
+            className=' outline-none'
             value={searchTerm} 
-            onChange={(e)=>setSearchTerm(e.target.value)}/>
+            onChange={(e)=>setSearchTerm(e.target.value)}
+          
+            />
         </div>
     </div>
   )

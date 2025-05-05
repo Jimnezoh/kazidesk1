@@ -4,25 +4,25 @@ import OverviewCards from './Overviewcards'
 function Overview() {
     const overviewCardsData = [
         {
-          title: "Title 1",
+          title: "Total Employees",
           value: 146,
           active: 100,
           inactive: 46,
         },
         {
-          title: "Title 2",
+          title: "Total Employees",
           value: 100,
           active: 80,
           inactive: 20,
         },
         {
-          title: "Title 3",
+          title: "Total Employees",
           value: 50,
-          active: 60,
+          active: 40,
           inactive: 10,
         },
         {
-          title: "Title 4",
+          title: "Total Employees",
           value: 75,
           active: 40,
           inactive: 35,
