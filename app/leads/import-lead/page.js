@@ -5,7 +5,7 @@ function page() {
   return (
     <div>
       <FileUploadPage 
-      title="Import Deal"
+      title="Import Lead"
       />
     </div>
   )
