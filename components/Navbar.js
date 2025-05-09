@@ -8,7 +8,7 @@ function Navbar({ toggleSidebar }) {
   const [searchTerm, setSearchTerm] = useState("");
 
   return (
-    <div className=" py-[16px] px-[25px] w-full mt-[20px] rounded-[40px] mb-[16px]">
+    <div className=" py-[16px] px-[25px] bg-white w-full mt-[20px] rounded-[40px] mb-[16px]">
       <div className=" flex justify-between ">
         <div className="flex rounded-[40px] gap-[10px] my-[8px]">
           <div onClick={() => toggleSidebar()}>
