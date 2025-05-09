@@ -23,21 +23,13 @@ export default function DealForm() {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log("Form submitted:", formData);
-    // Here you would typically send the data to your API
+    // send the data to your API
   };
 
-  // Get background color based on deal stage
-  const getStageBackground = (stage) => {
-    if (stage === "Generated") return "bg-gray-100";
-    if (stage === "Qualified") return "bg-blue-100";
-    if (stage === "Proposal Sent") return "bg-yellow-100";
-    if (stage === "Lost") return "bg-red-100";
-    if (stage === "Win") return "bg-green-100";
-    return "bg-white";
-  };
+ 
 
   return (
-    <div className="w-full   py-[52px] px-[28px] bg-white rounded-[20px]">
+    <div className="w-full mt-[70px]  py-[52px] px-[28px] bg-white rounded-[20px]">
       <h2 className="text-lg font-medium text-gray-800 mb-6">Deal Details</h2>
 
       <form onSubmit={handleSubmit}>
